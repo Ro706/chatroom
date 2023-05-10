@@ -1,0 +1,12 @@
+[+] create npm project
+[+] Create index ,css,js files
+[+] install dependancies. express ,nodemon(dev dep.)
+[+] create a express server (server.js)
+[+] do fronend part
+[+] install socket.io ,setup socket.io in server.js and client client.js
+[+] client send nessage logic in client.js
+[+] recieve message on server and broadcast to all clients
+[+] recieve message on client and display it.scrollToBottom etc...
+
+$npm run dev
+pwd :D:\chatbot
