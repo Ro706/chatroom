@@ -10,3 +10,4 @@
 
 $npm run dev
 pwd :D:\chatbot
+D:
