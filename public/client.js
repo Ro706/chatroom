@@ -4,6 +4,7 @@ let textarea = document.querySelector('#textarea')
 let messageArea = document.querySelector('.message__area')
 do {
     name = prompt('Please enter your nick name(xyz,chai,professor): ')
+    passwd = prompt('Please enter your password: ')
 } while(!name)
 
 textarea.addEventListener('keyup', (e) => {
