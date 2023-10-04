@@ -4,6 +4,7 @@ let textarea = document.querySelector('#textarea')
 let messageArea = document.querySelector('.message__area')
 do {
     name = prompt('Please enter your User name: ');
+    password = prompt('Please enter your password: ');
     messageadmin=`${name} joined the chat`
     let msg = {
         user: 'Admin',
