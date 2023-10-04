@@ -3,9 +3,21 @@ let name;
 let textarea = document.querySelector('#textarea')
 let messageArea = document.querySelector('.message__area')
 do {
-    name = prompt('Please enter your nick name(xyz,chai,professor): ')
-    passwd = prompt('Please enter your password: ')
+    name = prompt('Please enter your User name: ');
+    messageadmin=`${name} joined the chat`
+    let msg = {
+        user: 'Admin',
+        message: messageadmin
+    }
+    // Append 
+    appendMessage(msg, 'incoming');
+    textarea.value = ''
+    scrollToBottom()
+
+    // Send to server 
+    socket.emit('message', msg);
 } while(!name)
+
 
 textarea.addEventListener('keyup', (e) => {
     if(e.key === 'Enter') {

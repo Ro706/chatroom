@@ -77,3 +77,11 @@ textarea {
     color: #faeded;
     font-size: 14px;
 }
+@media screen and (max-width:600px) {
+    .chat__section{
+        max-width: 80%;
+    }
+    .message__area{
+        height: 200px;
+    }
+}
